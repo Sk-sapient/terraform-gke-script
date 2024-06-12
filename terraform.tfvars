@@ -1,0 +1,10 @@
+project_id       = "burner-kumshatr"
+region           = "us-central1"
+zone             = "us-central1-a"
+network_name     = "vpc-network-test"
+subnet_name      = "private-subnet"
+cluster_name     = "gke-cluster"
+master_cidr      = "172.16.32.0/28"
+node_count       = 1
+machine_type     = "n1-standard-1"
+preemptibllity   = false
